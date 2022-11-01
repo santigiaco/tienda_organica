@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tienda orgánica - Inicio</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="./index.html" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Productos</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Blog</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Acerca de nosotros</a></li>
+            </ul>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-warning ver-carrito" id="verCarrito">🛒Shop <span id="cantidadCarrito" class="cantidad-carrito"></span></button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- CUERPO DE SITIO -->
+
+      <div class="titulo_index">
+        <h2>Primera tienda orgánica online</h2>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-7">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/carrousel/frutos-secos2-kJbF--739x554@MujerHoy.jpg" class="d-block w-100" alt="frutas_verduras">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carrousel/especias-y-condimentos-1.jpg" class="d-block w-100" alt="frutos_secos">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carrousel/prevencion-cancer-frutas-verduras-3-1280x720.jpg" class="d-block w-100" alt="especias">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARDS -->
+
+        <div class="card-index">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/cards/mate-990x660.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Yerbas orgánicas</h5>
+                    <p class="card-text">Las mejores yerba mate orgánicas para el disfrute de cada mañana.</p>
+                    <a href="./yerbas.html" class="btn btn-primary">ir</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./img/cards/174715481-frascos-de-diferentes-mermeladas-e-ingredientes-frescos-en-mesa-de-madera-espacio-para-texto.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mermeladas naturales</h5>
+                    <p class="card-text">Las exquisitas mermeladas bajas en azucar te daran una merienda muy nutritiva.</p>
+                    <a href="./mermeladas.html" class="btn btn-primary">Ir</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./img/cards/especias-y-condimentos-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bolsones orgánicos</h5>
+                    <p class="card-text">El mejor mix de verduras y frutas, del campo hacia tu hogar directamente.</p>
+                    <a href="./bolsones.html" class="btn btn-primary">Ir</a>
+                </div>
+            </div>
+        </div>
+
+
+      <!-- FOOTER -->
+
+      <footer class="text-muted py-5">
+            <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Volver al inicio</a>
+            </p>
+            <p class="mb-1">Santiago Giacometti 2022</p>
+            </div>
+        </footer>
+
+    <!-- BOTON WHATSAPP -->
+
+     <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5199999999" target="_blank">
+        <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+        </a>
+    </div>
+
+    <!-- LINKS JS -->
+
+    <script src="./js/carrito.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px !important;
+}
+
+#producto-contenedor {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    display: grid;
+    gap: 1rem;
+    max-width: 75rem;
+    margin: 25px auto ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+
+.titulo_index{
+    text-align: center;
+    color: darkgreen;
+}
+
+.card-index{
+  display: grid;
+  gap: 1em;
+  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-container{
+  width: 80%;
+  margin: 0 10%;
+  max-height: 500px;
+  color: blue;
+  background-color:#ECF0F1 ;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-header{
+  display: flex;
+  justify-content:space-around;
+  background-color: #2E86C1;
+  color:black;
+  width: 95px;
+}
+
+.modal-header-title{
+  justify-self: start;
+}
+
+.modal-header-button{
+  cursor: pointer;
+  justify-content: right;
+  right: 90px;
+  position: absolute;
+}
+
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+  }
+
+.modal-container > div{
+  height: 120px;
+  width: 120px;
+}
+
+.total-content{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.delete-product{
+  cursor: pointer;
+}
+
+.cantidad-carrito{
+  background-color: red;
+  color: white;
+  border-radius: 25%;
+  font-size: 15px;
+  padding: 5px;
+  top: 20px;
+  right: 90px;
+  position: absolute;
+  display: none;
+}
+
+.sumar{
+  cursor: pointer;
+}
+
+.restar{
+  cursor: pointer;
+}
+
+.btn-whatsapp {
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}

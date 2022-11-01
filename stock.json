@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "nombre": "Yerba Canarias",
+        "tipo": "yerba",
+        "desc": "Yerba Canarias x 1kg",
+        "precio": 1500,
+        "img": "/img/cards/canarias.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 2,
+        "nombre": "Yerba Roapipo",
+        "tipo": "yerba",
+        "desc": "Yerba Roapipo x 1kg",
+        "precio": 1000,
+        "img": "/img/cards/roapipo.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 3,
+        "nombre": "Yerba Tucangua",
+        "tipo": "yerba",
+        "desc": "Yerba Tucangua x 1kg",
+        "precio": 1200,
+        "img": "/img/cards/tucangua.png",
+        "cantidad": 1
+    }
+]
